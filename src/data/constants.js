@@ -156,7 +156,7 @@ export const Bio = {
       role: "Senior System Analyst",
       company: "Abu Dhabi Commercial Bank - Abu Dhabi, UAE",
       date: "Dec 2018 - Present",
-      desc: "Worked for the client Abu Dhabi Commercial Bank in Customer onboarding application which is a responsive web application supports in Desktop web, Tablet web and Mobile web.",
+      desc: "Worked for the client Abu Dhabi Commercial Bank in Customer onboarding application which is a responsive web application supports in Desktop web, Tablet web and Mobile web",
       skills: [
         "Kony",
         "JavaScript",
