@@ -38,6 +38,28 @@ export const NavLogo = styled(LinkR)`
       padding: 0 0px;
   }
 `;
+export const LinkedInButton = styled.a`
+  border: 1.8px solid ${({ theme }) => theme.primary};
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  border-radius: 20px;
+  color: ${({ theme }) => theme.primary};
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.6s ease-in-out;
+    :hover {
+      background: ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.white};     
+    }
+    @media screen and (max-width: 768px) { 
+    font-size: 14px;
+    }
+`;
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
@@ -101,6 +123,17 @@ export const ButtonContainer = styled.div`
   height: 100%;
   display: flex;
   justify-content: end;
+  align-items: center;
+  padding: 0 6px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+export const ButtonContainerStart = styled.div`
+  width: 80%;  
+  height: 100%;
+  display: flex;
+  justify-content: start;
   align-items: center;
   padding: 0 6px;
   @media screen and (max-width: 768px) {

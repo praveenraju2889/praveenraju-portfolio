@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavBarStyleComponents'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink, ButtonContainerStart, LinkedInButton } from './NavBarStyleComponents'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
@@ -12,11 +12,10 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: theme.primary, marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
-        </NavLogo>
+        
+        <ButtonContainerStart>
+          <LinkedInButton style={{alignItems: "center"}} href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
+        </ButtonContainerStart>
         <MobileIcon>
           <FaBars onClick={() => {
             setIsOpen(!isOpen)
