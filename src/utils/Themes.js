@@ -19,6 +19,7 @@ export const lightTheme = {
     text_secondary:"#48494a",
     card:"#FFFFFF",
     card_light: '#FFFFFF',
-    button:"#5c5b5b",
+    button:"#9ec4f0",
     white:"#FFFFFF",
+    borderBG:'#9ec4f0'
 }

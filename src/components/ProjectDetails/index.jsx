@@ -159,10 +159,10 @@ const Button = styled.a`
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.white};
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.borderBG};
     ${({ dull, theme }) => dull && `
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};

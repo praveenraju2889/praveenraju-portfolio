@@ -57,6 +57,10 @@ export const Bio = {
       title: "Backend",
       skills: [
         {
+          name: "Kony Mobile Fabric",
+          image: "https://gonzobanker.com/wp-content/uploads//temenos-kony.jpg",
+        },
+        {
           name: "Java Spring Boot",
           image: "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png",
         },
@@ -71,19 +75,9 @@ export const Bio = {
             "https://www.appdeploynews.com/wp-content/uploads/2023/03/plsql-icon.png",
         },
         {
-          name: "APACHE KAFKA",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3J8_6ncmIy43muYEyLBvzOt0BaU2wR3Dma1670eF1yA&s",
-        },
-        {
           name: "RDS",
           image:
             "https://logowik.com/content/uploads/images/aws-rds2214.logowik.com.webp",
-        },
-        {
-          name: "JUnit",
-          image:
-            "https://miro.medium.com/v2/resize:fit:1144/1*Xhct1rcbMzmbedNWfwLxIw.png",
         }
       ],
     },

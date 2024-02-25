@@ -8,7 +8,7 @@ export default {
     colors: {
       primary1: "#854CE6",
       background1: "#222A35",
-      button: "#5c5b5b",
+      button: "#6cabf5",
       background2: "#19212C",
       text: "#C8CFD8",
       text1: "#F2F5F7",

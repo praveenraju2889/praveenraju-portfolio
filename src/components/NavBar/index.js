@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavbarContainer>
         
         <ButtonContainerStart>
-          <LinkedInButton style={{alignItems: "center"}} href={Bio.linkedin} target="_blank">LinkedIn Profile</LinkedInButton>
+          <LinkedInButton style={{alignItems: "center"}} href={Bio.linkedin} target="_blank">LinkedIn</LinkedInButton>
         </ButtonContainerStart>
         <MobileIcon>
           <FaBars onClick={() => {
