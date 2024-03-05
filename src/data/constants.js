@@ -217,7 +217,7 @@ export const Bio = {
       description:
         "Customer onboarding, applying for credit card, personal.",
       image:
-        "https://digitalapps.adcb.com/apps/ADCBCOP/1809171584/desktopweb/images/customerlandingbg.jpg",
+        "https://digitalapps.adcb.com/apps/ADCBCOP/1608142730/desktopweb/images/customerlandingbg.jpg",
       tags: [
         "Kony",
         "JavaScript",
