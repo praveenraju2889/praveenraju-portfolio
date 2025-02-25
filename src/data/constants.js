@@ -1,5 +1,5 @@
 export const Bio = {
-    name: "Praveen Raju",
+    name: "Praveen Rajuu",
     roles: [
       "Software Engineer",
       "Front End Developer"
@@ -8,7 +8,7 @@ export const Bio = {
       "Kony Mobile/Web Application Developer with over 9 years experience for leading financial and technology enterprises. ",
     github: "https://github.com/praveenraju2889",
     resume:
-      "https://drive.google.com/file/d/1iyDn1lwbcvkpPtw7FsAAj7VCTGtGGvIu/view?usp=sharing",
+      "https://drive.google.com/file/d/1HziJLOmZMHy43gm283q_ieiRDdPdJGX_/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/praveen-raju-67609219/",
     insta: "https://www.instagram.com/praveenrajuu/"
   };
@@ -265,5 +265,3 @@ export const Bio = {
       webapp: "https://play.google.com/store/apps/details?id=com.adcb.cbgdigi&hl=en&gl=US",
     }
   ];
-  
- 
